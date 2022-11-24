@@ -10,5 +10,8 @@ Anleitung:
 7. In der Klasse die wir testen, muss "public class <classname>" stehen/geändert werden
 8. Im Testcode "using <classname (be careful and look at the namespace of the class)>;"
 9. Rechtsklick auf Abhängigkeiten -> Projektverweis hinzufügen
-10. Häckchen bei der Klasse setzen
+10. Häckchen bei der Klasse (Vorsichttig wieder auf namespace achten)  setzen
 11. "OK" drücken
+12. AAA anwenden
+13. Testen über: Im Menü zwischen "Debuggen" und "Analysieren" auf "Test -> Test-Explorer"
+14. Im "Test-Explorer" ausführen lassen und schauen, ob der Test bestanden wird.
