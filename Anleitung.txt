@@ -1,0 +1,14 @@
+Anleitung:
+
+1. Repository klonen in Visual Studio
+2. Rechtsklick auf Projektmappe -> Hinzufügen -> Neues Projekt
+3. Filter nach C#, Windows, Test
+4. Auswählen MSTest-Testprojekt (Drauf achten das es .NET oder .NET Core beinhaltet)
+5. Bennenung vom Testprojekt
+(5.1 Framework .NET 6.0 (Langfristige Unterstützung) )
+6. "Erstellen" klicken
+7. In der Klasse die wir testen, muss "public class <classname>" stehen/geändert werden
+8. Im Testcode "using <classname (be careful and look at the namespace of the class)>;"
+9. Rechtsklick auf Abhängigkeiten -> Projektverweis hinzufügen
+10. Häckchen bei der Klasse setzen
+11. "OK" drücken
