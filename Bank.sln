@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank", "Bank\Bank.csproj", "{4317B730-3DB5-4232-A26C-E7F26FB70CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unitest_uebung", "Unitest_uebung\Unitest_uebung.csproj", "{97B68ADF-1B45-4187-8BF3-DA063E22F13D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank_Test", "Unitest_uebung\Bank_Test.csproj", "{97B68ADF-1B45-4187-8BF3-DA063E22F13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

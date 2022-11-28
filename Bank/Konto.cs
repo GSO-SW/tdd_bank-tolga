@@ -5,6 +5,7 @@ namespace Bank
     public class Konto
     {
         private int guthaben;
+        static private int kontoNr;
 
         public int Guthaben
         {
@@ -14,9 +15,18 @@ namespace Bank
             }
         }
 
+        public int KontoNr
+        {
+            get
+            {
+                return kontoNr;
+            }
+        }
+
         public Konto(int guthaben)
         {
             this.guthaben = guthaben;
+            kontoNr = 1 + kontoNr;
         }
 
         public void Einzahlen(int betrag)
